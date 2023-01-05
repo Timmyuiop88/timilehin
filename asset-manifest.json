@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/github.io/timilehin/static/css/main.a25da08d.css",
+    "main.js": "/github.io/timilehin/static/js/main.2883bc7f.js",
+    "static/js/787.99d33f1a.chunk.js": "/github.io/timilehin/static/js/787.99d33f1a.chunk.js",
+    "static/media/project.png": "/github.io/timilehin/static/media/project.9451f0e7e7ee6c6fb72a.png",
+    "static/media/person.png": "/github.io/timilehin/static/media/person.d22fd0de21062832dede.png",
+    "static/media/NeueMontreal-Regular.otf": "/github.io/timilehin/static/media/NeueMontreal-Regular.140bfb4a71fe08805d92.otf",
+    "static/media/Mouse.png": "/github.io/timilehin/static/media/Mouse.c2e1a02df193729e4523.png",
+    "static/media/grid.png": "/github.io/timilehin/static/media/grid.87195b630ac86b7d7f50.png",
+    "static/media/non-natural-grotesk-trialversion-regular.otf": "/github.io/timilehin/static/media/non-natural-grotesk-trialversion-regular.5141823c6becde2dbc48.otf",
+    "static/media/non-natural-grotesk-trialversion-bold.otf": "/github.io/timilehin/static/media/non-natural-grotesk-trialversion-bold.63679ab46d1fe1682220.otf",
+    "index.html": "/github.io/timilehin/index.html",
+    "main.a25da08d.css.map": "/github.io/timilehin/static/css/main.a25da08d.css.map",
+    "main.2883bc7f.js.map": "/github.io/timilehin/static/js/main.2883bc7f.js.map",
+    "787.99d33f1a.chunk.js.map": "/github.io/timilehin/static/js/787.99d33f1a.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a25da08d.css",
+    "static/js/main.2883bc7f.js"
+  ]
+}
