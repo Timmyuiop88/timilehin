@@ -1,38 +1,608 @@
-.App {
+*{
+  margin: 0;
+  padding: 0;
+
+}
+@font-face {
+  font-family: "Neue Montreal";
+  src: url("./components/fonts/Neue-montreal-free-demo_pangram-pangram_030418/NeueMontreal-Regular.otf");
+}
+@font-face {
+  font-family: "NON Natural";
+  src: url("./components/fonts/non-natural-grotesk-font-1669943045-0/non-natural-grotesk-trialversion-bold.otf");
+}
+.nav{
+
+  height: 60px;
+  width: 100%;
+  background-color: white;
+  
+}
+.logo{
+  height: 30px;
+  width: 140px;
+  margin-top: 15px;
+  margin-left: 15px;
+}
+.hero{
+  width: 100%;
+  height: 500px;
+  background:url(components/images/grid.png);
+
+  background-size: cover;
+  padding-bottom: 25px;
+}
+.star{
+  height: 15.5px;
+  width: 15.5px;
+  margin-left: 20px;
+  margin-top: 16px;
+}
+.star-y{
+  height: 15.5px;
+  width: 15.5px;
+  margin-left: 65vw;
+  margin-top: 16px;
+}
+.hero-image{
+display: flex;
+justify-content: center;
+}
+.person{
+  height:150px;
+  width:150px;
+  transform: translatey(0px);
+	animation: float 6s ease-in-out infinite;
+}
+@keyframes float {
+	0% {
+		
+		transform: translatey(0px);
+	}
+	50% {
+	
+		transform: translatey(-20px);
+	}
+	100% {
+		
+		transform: translatey(0px);
+	}
+}
+.intro{
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+}
+.location{
+  height: 15px;
+  margin-top: 0px;
+}
+.intro p{
+  font-size: 15px;
+  font-family: "Neue Montreal";
+  margin-left: 10px;
+  font-style: normal;
+font-weight: 400;
+line-height: 17px;
+
+}
+.details{
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+.details p{
+  font-size: 35px;
+  font-family: 'NON Natural';
+  font-weight: 700px;
+  line-height: 36px;
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.sp{
+  font-family: 'Neue Montreal';
+font-style: normal;
+font-weight: 400;
+margin-left: 5px;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.details img{
+  width: 35px;
+  height: 26px;
+  margin-right: 10px;
 }
+.detail{
+  height: 150px;
+  width: 250px;
+text-align: center;
+  margin: auto;
+}
+.detail p{
+  font-family: 'Neue Montreal';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 150%;
+text-transform: uppercase;
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+color: #99A2AF;
+}
+.project{
+  width: 100%;
+  height: auto;
+  background-color: #fefefe;
+  padding-bottom: 40px;
+ 
+}
+.mouse{
+  margin: auto;
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  margin-top: 30px;
+}
+.mouse img{
+  height: 150px;
+  width: 150px;
+  
+}
+.project_title{
+  margin-top: 50px;
+}
+.project_heading{
+  display: flex;
+  justify-content: center;
+}
+.project_sub_heading{
+  display: flex;
+  justify-content: center;
+}
+.project_sub_heading p{
+  font-family: 'NON Natural';
+font-style: normal;
+font-weight: 700;
+font-size: 40px;
+line-height: 100%;
+margin-top: 10px;
+margin-bottom: 50px;
+}
+.project_heading p{
+  font-family: 'Neue Montreal';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 100%;
+  color: #99A2AF;
+}
+.single{
+  height: 400px;
+  width: 350px;
+  border: 1px solid #99A2AF;
+  margin-top: 20px;
+  background-color: white;
+  box-shadow: 0px 0px 13.898px 0.534539px rgba(0, 0, 0, 0.03);
+border-radius: 8.55263px;
+padding-top: 10px;
+}
+.project_container{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  
+
+}
+.programming{
+height: 40px;
+width: 250px;
+
+margin: auto;
+
+}
+.programming ul{
+list-style: none;
+display: flex;
+justify-content: space-between;
+margin-top:10px;
+}
+.programming li{
+  border-radius: 20.3125px;
+  background-color: #ECEFF2;
+font-family: 'Neue Montreal';
+font-style: normal;
+font-weight: 500;
+font-size: 15px;
+line-height: 100%;
+padding: 10px;
+color:#99A2AF;
 }
 
-.App-link {
-  color: #61dafb;
+.proj_image{
+  width: 300px;
+  height: 200px;
+  
+  margin: auto;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+.proj_image img{
+  height: 200px;
+  width: 300px;
+}
+.proj_name{
+display: flex;
+justify-content: space-between;
+}
+.name1{
+  width: 220px;
+  height: 80px;
+  margin-left:20px;
+
+  display: flex;
+  
+
+}
+.worr{
+  font-family: 'NON Natural';
+font-style: normal;
+font-weight: 700;
+font-size: 60px;
+line-height: 100%;
+/* or 51px */
+
+text-transform: uppercase;
+
+color: #DFDFDF;
+}
+.name1 p{
+
+  font-family: 'Neue Montreal';
+font-style: normal;
+font-weight: 400;
+font-size: 30px;
+line-height: 24px;
+letter-spacing: 0.05em;
+text-transform: uppercase;
+margin-left: 10px;
+color: #121212;
+}
+.dot{
+  color:#06D6A0
+}
+.name2 img{
+  margin-right: 20px;
+  height: 50px;
+  width: 50px;
+  
+}
+.experience{
+width: 100%;
+height: auto;
+padding-bottom: 50px;
+
+background-color: #fefefe;
+}
+.ex_heading{
+  margin: auto;
+ 
+  width: 300px;
+  height: 70px;
+  text-align: center;
+  margin-bottom: 60px;
+}
+.ex_heading p{
+  margin-top: 10px;
+  font-family: 'NON Natural';
+font-style: normal;
+font-weight: 700;
+font-size: 40px;
+line-height: 100%;
+/* identical to box height, or 30px */
+
+
+text-transform: uppercase;
+
+color: #121212;
+
+}
+.ex_sub{
+font-family: 'Neue Montreal';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 100%;
+text-align: center;
+text-transform: uppercase;
+color: #99A2AF;
+
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.ex{
+  width: 100%;
+  height: 130px;
+  padding-top: 30px;
+  padding-left: 20px;
+  border-bottom: 2px solid #99A2AF;
+}
+.exp{
+  display: flex;
+}
+.position{
+  overflow-wrap: break-word;
+  margin-left: 20px;
+  width: 230px;
+height: 60px;
+
+
+font-family: 'Neue Montreal';
+font-style: normal;
+font-weight: 400;
+font-size: 25px;
+line-height: 130%;
+/* or 26px */
+
+letter-spacing: 0.05em;
+text-transform: uppercase;
+
+color: #99A2AF;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 1;
+flex-grow: 0;
+}
+.black{
+  color: #121212;
+}
+.date{
+  margin-top: 20px;
+  margin-left: 100px;
+  font-family: 'Neue Montreal';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 130%;
+/* identical to box height, or 26px */
+
+letter-spacing: 0.05em;
+text-transform: uppercase;
+
+color: #99A2AF;
+}
+.skills{
+  width: 100%;
+  height: 300px;
+ 
+}
+
+
+.marquee {
+
+    overflow: hidden; 
+    background-color: #F9F9F9;
+    
+    height :120px;
+  
   }
-  to {
-    transform: rotate(360deg);
+  
+  .marquee-content {
+    display: flex;
+    justify-content: center;
+    animation: scrolling 10s linear infinite;
+  }
+  
+  .marquee-item {
+    flex: 0 0 16vw;
+    margin: 0 1vw;
+  /*   flex: 0 0 20vw; */
+  /*   margin: 0 2vw; */
+  }
+  .marquee p{
+    text-align: center;
+    font-family: 'NON Natural';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+
+/* identical to box height */
+
+
+color: #99A2AF;
+  }
+  .marquee-item img {
+    display: block;
+    width: auto;
+    height:80px;
+    margin-top:10px
+    
+  /*   padding: 0 20px; */
+  }
+ 
+  @keyframes scrolling {
+    0% { transform: translateX(0); }
+    100% { transform: translatex(-1590px); }
+  }
+   .bigstar{
+    height: 25px;
+    width: 25px;
+    margin: auto;
+    margin-left: 50px;
+    margin-right: 50px;
+    
+  }
+  .contact{
+    width: 100%;
+    height: auto;
+    background-color: #F4F4F4;
+    padding-top: 50px;
+    padding-bottom: 50px;
+
+  }
+  .contactform{
+    width: 350px;
+    height: 400px;
+    
+    margin: auto;
+  }
+  .input_f{
+    width: 100%;
+    height: 50px;
+   
+    display: flex;
+    justify-content: center;
+   padding-top: 25px;
+   
+  }
+  .input_f input{
+    height: 50px;
+    width: 60%;
+    border-radius: 0px 20px 20px 0px;
+    border: 2px solid #99A2AF;
+    border-left: none;
+    outline: none;
+  }
+  .tes{
+    height: 150px;
+  }
+  .input_t{
+    width: 100%;
+    height: 50px;
+   
+    display: flex;
+    justify-content: center;
+   padding-top: 25px;
+   padding-bottom: 130px;
+   
+  }
+  .input_t textarea{
+    height: 150px;
+    width: 50%;
+    border-radius: 0px 20px 20px 0px;
+    border: 2px solid #99A2AF;
+    border-left: none;
+    outline: none;
+  }
+  .input_t p{
+    height: 150px;
+    width:40%;
+    border: 2px solid #99A2AF;
+    border-right: none;
+    background-color: white;
+    border-radius: 20px 0px 0px 20px;
+    line-height: 45px;
+    text-align: center;
+    font-family: 'Neue Montreal';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+color: #99A2AF;
+    
+  }
+  .input_f p{
+    height: 50px;
+    width:30%;
+    border: 2px solid #99A2AF;
+    border-right: none;
+    background-color: white;
+    border-radius: 20px 0px 0px 20px;
+    line-height: 45px;
+    text-align: center;
+    font-family: 'Neue Montreal';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+color: #99A2AF;
+    
+  }
+  .submit{
+    height: 50px;
+    width: 100%;
+    
+    display: flex;
+    justify-content: center;
+  }
+  .submit button{
+    height: 50px;
+    width: 90%;
+    margin: auto;
+    background: #06D6A0;
+    border: none;
+border-radius: 20px;
+font-family: 'Neue Montreal';
+font-style: normal;
+font-weight: 500;
+font-size: 24px;
+  }
+  .footer{
+    height: auto;
+    width: 100%;
+    background-color: white;
+    padding-top:20px;
+  }
+  .footer img{
+    height: 30px;
+  width: 140px;
+    margin: auto;
+  }
+  .f_logo{
+    display: flex;
+    justify-content: center;
+  }
+  .f_email{
+    margin-top: 5px;
+    display: flex;
+    justify-content: center;
+    
+  }
+  .f_email a{
+    text-decoration: none;
+    font-family: 'Neue Montreal';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 22px;
+color: #99A2AF;
+  }
+  .f_icons{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+  }
+  .f_icons a{
+    color: #111111;
+    text-decoration: none;
+    padding: 10px;
+  }
+  .download a{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    text-decoration: none;
+    margin-bottom: 15px;
+    color: #06D6A0;
+
+  }
+  .download a p{
+    margin-left:5px ;
+    color: #111111;
+  }
+@media screen and (min-width: 700px) {
+  .single{
+   width: 380px;
+   height: 420px;
+   margin-left: 50px;
+   margin-right: 50px;
+  }
+  .project_container{
+   
+  margin: auto;
+    width: 80%;
+    
+  }
+  .ex{
+    display: flex;
+    justify-content: space-between;
+  }
+  .date{
+    margin-right: 100px;
+    font-size: 30px;
   }
 }
