@@ -190,7 +190,7 @@ padding-top: 10px;
 }
 .programming{
 height: 40px;
-width: 250px;
+width: auto;
 
 margin: auto;
 
@@ -198,11 +198,13 @@ margin: auto;
 .programming ul{
 list-style: none;
 display: flex;
-justify-content: space-between;
-margin-top:10px;
+justify-content: space-around;
+align-items: center;
+margin: auto;
+
 }
 .programming li{
-  border-radius: 20.3125px;
+  border-radius: 15px;
   background-color: #ECEFF2;
 font-family: 'Neue Montreal';
 font-style: normal;

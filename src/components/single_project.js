@@ -1,29 +1,26 @@
 import React from "react";
-import project from './images/project.png'
+
 import east from './images/east.png'
 
+
 function Singles (props){
-  const toolz = props.toolz
 
-
+const link = props.link
   return(
      <div data-aos="fade-up" className="single">
         <div className="programming">
           <ul>
-          {
+       {props.tools.map((value) => {return(
+        <li>{value}</li>
+       )}
+       
+       
+       )}
           
-        toolz.map((item) => <li>{item}</li>)   
-          
-            
-        
-          }
-            <li>PHP</li>
-            <li>REACT NATIVE</li>
-            <li>CSS</li>
           </ul>
         </div>
         <div className="proj_image">
-<img src={project} alt="not found"/>
+<img src={props.Image} alt="not found"/>
 
         </div>
         <div className="proj_name">
@@ -35,9 +32,9 @@ function Singles (props){
             {props.Name}
             </p>
           </div>
-          <div className="name2">
+          <a href={link} className="name2">
             <img src={east} alt="not found"/>
-          </div>
+          </a>
         </div>
     </div>
   )
